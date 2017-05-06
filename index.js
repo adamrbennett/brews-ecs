@@ -20,7 +20,7 @@ const brews = [
 ];
 
 app.get('/', (req, res) => {
-  res.sendStatus(200);
+  res.send("Healthy");
 });
 
 app.get(root, (req, res) => {
